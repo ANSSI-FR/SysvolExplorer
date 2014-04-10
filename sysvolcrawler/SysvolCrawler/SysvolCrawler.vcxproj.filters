@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bibliotheques">
+      <UniqueIdentifier>{feb1ce5c-2360-4c63-91c5-c19b924c01cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL">
+      <UniqueIdentifier>{0088df91-f9bb-4f28-b199-841e7f43275f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\POL">
+      <UniqueIdentifier>{04918d18-813b-4147-9b85-075280601ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\PREFERENCES">
+      <UniqueIdentifier>{b8a5cb04-01fa-4063-bacb-4deb96e06aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\MISC">
+      <UniqueIdentifier>{1a3270f5-995c-490b-8824-378d2b8bbb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\AAS">
+      <UniqueIdentifier>{0f1d1ece-220a-4e71-92fd-e6b3ad2a5626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\DENIED">
+      <UniqueIdentifier>{4cdcb0cd-fb53-4cc5-8096-718e993b9d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\IEAK">
+      <UniqueIdentifier>{e774daa2-ad56-4302-b42a-a0734f5659df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INF">
+      <UniqueIdentifier>{de3a0c29-96b9-486e-a3ae-5c53a58141f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INI">
+      <UniqueIdentifier>{0c2c1006-8022-4336-840c-58b0a2f2eba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INI\GPT">
+      <UniqueIdentifier>{90297237-1cb7-4e3e-9c84-054e996fd8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INI\SCRIPTS">
+      <UniqueIdentifier>{a9595443-3b1a-4a72-aa1e-07ddd80aba35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INI\GPE">
+      <UniqueIdentifier>{afad8bb5-7b85-4fde-83bf-c623fbae1bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INI\GENERIC">
+      <UniqueIdentifier>{161bcb8d-5d40-4a49-872f-9ae31f14ae0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INI\ADMFILES">
+      <UniqueIdentifier>{e1c01c9c-c573-4cd8-a993-249177d1938a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\INI\FDEPLOY">
+      <UniqueIdentifier>{f771f99c-3ca8-40e4-acf7-b7afbd17d4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL">
+      <UniqueIdentifier>{1da5c240-9036-4a62-93a8-6c9b61e12333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\POL">
+      <UniqueIdentifier>{ca52dc3e-5504-44c0-8dc6-5e045b40bbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\PREFERENCES">
+      <UniqueIdentifier>{8ade3279-7fbd-4095-b2f7-143781a43920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\MISC">
+      <UniqueIdentifier>{232fd192-b56a-4351-b943-b86e222be571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\AAS">
+      <UniqueIdentifier>{acaa9096-695a-47de-92cf-733fb09dafae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\DENIED">
+      <UniqueIdentifier>{8565d299-9ec5-4900-aad2-3a627ddfca7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\IEAK">
+      <UniqueIdentifier>{14c030ac-f95c-417d-b9e1-a0e645a13c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INF">
+      <UniqueIdentifier>{0f7427b8-6458-4692-87af-8423dc33f9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INI">
+      <UniqueIdentifier>{7b5ed916-a2a9-44b4-adfa-3fbae1945eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INI\GPT">
+      <UniqueIdentifier>{7f41f444-af86-48cf-9f38-db67a66f106b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INI\SCRIPTS">
+      <UniqueIdentifier>{6915fe4b-db8e-49f7-8c83-ab67aea7ed9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INI\GPE">
+      <UniqueIdentifier>{73c26ebd-062c-477d-9b22-990aef5ec2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INI\GENERIC">
+      <UniqueIdentifier>{4aef7b89-597d-44d0-acc6-6a91fadcf4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INI\ADMFILES">
+      <UniqueIdentifier>{eb9e238e-f800-4f08-9d0e-8d0e845bfbad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\INI\FDEPLOY">
+      <UniqueIdentifier>{e35a8e97-e05a-413e-b616-9f9c498f0d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\LDAP">
+      <UniqueIdentifier>{5941ec3d-e5ec-40ad-87c1-d93f766f2a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\LDAP">
+      <UniqueIdentifier>{60f97186-22d1-4eca-9f8a-db1a6c911038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\DACL">
+      <UniqueIdentifier>{58f782b6-fa0e-4f77-b58c-e2708e1897aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\DACL">
+      <UniqueIdentifier>{9fb87180-8c2e-425f-b692-9c5a2e84f94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SYSVOL\ADM">
+      <UniqueIdentifier>{910da91e-1cc9-4d06-9cf6-36b8ebc38ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SYSVOL\ADM">
+      <UniqueIdentifier>{171e528f-f47a-458a-95b4-5e4409da6e15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="POLParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\POL</Filter>
+    </ClInclude>
+    <ClInclude Include="POLPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\POL</Filter>
+    </ClInclude>
+    <ClInclude Include="INFParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INF</Filter>
+    </ClInclude>
+    <ClInclude Include="INFPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INF</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterCommon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MISCParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MISCPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="GPTiniParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\GPT</Filter>
+    </ClInclude>
+    <ClInclude Include="GPTiniPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\GPT</Filter>
+    </ClInclude>
+    <ClInclude Include="AASParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\AAS</Filter>
+    </ClInclude>
+    <ClInclude Include="AASPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\AAS</Filter>
+    </ClInclude>
+    <ClInclude Include="SCRIPTSiniParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\SCRIPTS</Filter>
+    </ClInclude>
+    <ClInclude Include="SCRIPTSiniPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\SCRIPTS</Filter>
+    </ClInclude>
+    <ClInclude Include="GPEiniParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\GPE</Filter>
+    </ClInclude>
+    <ClInclude Include="GPEiniPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\GPE</Filter>
+    </ClInclude>
+    <ClInclude Include="IEAKParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\IEAK</Filter>
+    </ClInclude>
+    <ClInclude Include="INIGenericParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\GENERIC</Filter>
+    </ClInclude>
+    <ClInclude Include="INIGenericPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\GENERIC</Filter>
+    </ClInclude>
+    <ClInclude Include="IEAKPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\IEAK</Filter>
+    </ClInclude>
+    <ClInclude Include="PREFERENCESParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\PREFERENCES</Filter>
+    </ClInclude>
+    <ClInclude Include="PREFERENCESPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\PREFERENCES</Filter>
+    </ClInclude>
+    <ClInclude Include="ADMFILESiniParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\ADMFILES</Filter>
+    </ClInclude>
+    <ClInclude Include="ADMFILESiniPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\ADMFILES</Filter>
+    </ClInclude>
+    <ClInclude Include="FDEPLOYiniParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\FDEPLOY</Filter>
+    </ClInclude>
+    <ClInclude Include="FDEPLOYiniPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\INI\FDEPLOY</Filter>
+    </ClInclude>
+    <ClInclude Include="DENIEDParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\DENIED</Filter>
+    </ClInclude>
+    <ClInclude Include="DENIEDPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\DENIED</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatcher.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL</Filter>
+    </ClInclude>
+    <ClInclude Include="LDAPCrawler.h">
+      <Filter>Fichiers d%27en-tête\LDAP</Filter>
+    </ClInclude>
+    <ClInclude Include="LDAPPrinter.h">
+      <Filter>Fichiers d%27en-tête\LDAP</Filter>
+    </ClInclude>
+    <ClInclude Include="DACLParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\DACL</Filter>
+    </ClInclude>
+    <ClInclude Include="DACLPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\DACL</Filter>
+    </ClInclude>
+    <ClInclude Include="ADMParser.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\ADM</Filter>
+    </ClInclude>
+    <ClInclude Include="ADMPrinter.h">
+      <Filter>Fichiers d%27en-tête\SYSVOL\ADM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="POLParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\POL</Filter>
+    </ClCompile>
+    <ClCompile Include="INFParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\INF</Filter>
+    </ClCompile>
+    <ClCompile Include="PrinterCommon.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="INFPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\INF</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MISCParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="MISCPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GPTiniParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\GPT</Filter>
+    </ClCompile>
+    <ClCompile Include="GPTiniPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\GPT</Filter>
+    </ClCompile>
+    <ClCompile Include="AASParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\AAS</Filter>
+    </ClCompile>
+    <ClCompile Include="AASPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\AAS</Filter>
+    </ClCompile>
+    <ClCompile Include="SCRIPTSiniParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\SCRIPTS</Filter>
+    </ClCompile>
+    <ClCompile Include="SCRIPTSiniPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\SCRIPTS</Filter>
+    </ClCompile>
+    <ClCompile Include="GPEiniParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\GPE</Filter>
+    </ClCompile>
+    <ClCompile Include="GPEiniPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\GPE</Filter>
+    </ClCompile>
+    <ClCompile Include="IEAKParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\IEAK</Filter>
+    </ClCompile>
+    <ClCompile Include="INIGenericParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\GENERIC</Filter>
+    </ClCompile>
+    <ClCompile Include="INIGenericPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\GENERIC</Filter>
+    </ClCompile>
+    <ClCompile Include="IEAKPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\IEAK</Filter>
+    </ClCompile>
+    <ClCompile Include="PREFERENCESParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\PREFERENCES</Filter>
+    </ClCompile>
+    <ClCompile Include="PREFERENCESPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\PREFERENCES</Filter>
+    </ClCompile>
+    <ClCompile Include="POLPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\POL</Filter>
+    </ClCompile>
+    <ClCompile Include="ADMFILESiniParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\ADMFILES</Filter>
+    </ClCompile>
+    <ClCompile Include="ADMFILESiniPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\ADMFILES</Filter>
+    </ClCompile>
+    <ClCompile Include="FDEPLOYiniParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\FDEPLOY</Filter>
+    </ClCompile>
+    <ClCompile Include="FDEPLOYiniPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\INI\FDEPLOY</Filter>
+    </ClCompile>
+    <ClCompile Include="DENIEDParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\DENIED</Filter>
+    </ClCompile>
+    <ClCompile Include="DENIEDPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\DENIED</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispatcher.cpp">
+      <Filter>Fichiers sources\SYSVOL</Filter>
+    </ClCompile>
+    <ClCompile Include="LDAPCrawler.cpp">
+      <Filter>Fichiers sources\LDAP</Filter>
+    </ClCompile>
+    <ClCompile Include="LDAPPrinter.cpp">
+      <Filter>Fichiers sources\LDAP</Filter>
+    </ClCompile>
+    <ClCompile Include="DACLParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\DACL</Filter>
+    </ClCompile>
+    <ClCompile Include="DACLPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\DACL</Filter>
+    </ClCompile>
+    <ClCompile Include="ADMParser.cpp">
+      <Filter>Fichiers sources\SYSVOL\ADM</Filter>
+    </ClCompile>
+    <ClCompile Include="ADMPrinter.cpp">
+      <Filter>Fichiers sources\SYSVOL\ADM</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

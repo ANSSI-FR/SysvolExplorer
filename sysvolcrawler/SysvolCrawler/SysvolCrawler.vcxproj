@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E43D8F5D-7968-4BE7-A1B6-92538ADD857B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SysvolCrawler</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>Default</CompileAs>
+      <AdditionalOptions>/sdl %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Crypt32.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>Default</CompileAs>
+      <AdditionalOptions>/sdl %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Crypt32.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Crypt32.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Crypt32.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AASParser.cpp" />
+    <ClCompile Include="AASPrinter.cpp" />
+    <ClCompile Include="ADMParser.cpp" />
+    <ClCompile Include="ADMPrinter.cpp" />
+    <ClCompile Include="DACLParser.cpp" />
+    <ClCompile Include="DACLPrinter.cpp" />
+    <ClCompile Include="ADMFILESiniParser.cpp" />
+    <ClCompile Include="ADMFILESiniPrinter.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="DENIEDParser.cpp" />
+    <ClCompile Include="DENIEDPrinter.cpp" />
+    <ClCompile Include="Dispatcher.cpp" />
+    <ClCompile Include="FDEPLOYiniParser.cpp" />
+    <ClCompile Include="FDEPLOYiniPrinter.cpp" />
+    <ClCompile Include="GPEiniParser.cpp" />
+    <ClCompile Include="GPEiniPrinter.cpp" />
+    <ClCompile Include="GPTiniParser.cpp" />
+    <ClCompile Include="GPTiniPrinter.cpp" />
+    <ClCompile Include="IEAKParser.cpp" />
+    <ClCompile Include="IEAKPrinter.cpp" />
+    <ClCompile Include="INFParser.cpp" />
+    <ClCompile Include="INFPrinter.cpp" />
+    <ClCompile Include="INIGenericParser.cpp" />
+    <ClCompile Include="INIGenericPrinter.cpp" />
+    <ClCompile Include="LDAPCrawler.cpp" />
+    <ClCompile Include="LDAPPrinter.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MISCParser.cpp" />
+    <ClCompile Include="MISCPrinter.cpp" />
+    <ClCompile Include="POLParser.cpp" />
+    <ClCompile Include="POLPrinter.cpp" />
+    <ClCompile Include="PREFERENCESParser.cpp" />
+    <ClCompile Include="PREFERENCESPrinter.cpp" />
+    <ClCompile Include="PrinterCommon.cpp" />
+    <ClCompile Include="SCRIPTSiniParser.cpp" />
+    <ClCompile Include="SCRIPTSiniPrinter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADMParser.h" />
+    <ClInclude Include="ADMPrinter.h" />
+    <ClInclude Include="DACLParser.h" />
+    <ClInclude Include="AASParser.h" />
+    <ClInclude Include="AASPrinter.h" />
+    <ClInclude Include="DACLPrinter.h" />
+    <ClInclude Include="ADMFILESiniParser.h" />
+    <ClInclude Include="ADMFILESiniPrinter.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DENIEDParser.h" />
+    <ClInclude Include="DENIEDPrinter.h" />
+    <ClInclude Include="Dispatcher.h" />
+    <ClInclude Include="FDEPLOYiniParser.h" />
+    <ClInclude Include="FDEPLOYiniPrinter.h" />
+    <ClInclude Include="GPEiniParser.h" />
+    <ClInclude Include="GPEiniPrinter.h" />
+    <ClInclude Include="GPTiniParser.h" />
+    <ClInclude Include="GPTiniPrinter.h" />
+    <ClInclude Include="IEAKParser.h" />
+    <ClInclude Include="IEAKPrinter.h" />
+    <ClInclude Include="INFParser.h" />
+    <ClInclude Include="INFPrinter.h" />
+    <ClInclude Include="INIGenericParser.h" />
+    <ClInclude Include="INIGenericPrinter.h" />
+    <ClInclude Include="LDAPCrawler.h" />
+    <ClInclude Include="LDAPPrinter.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MISCParser.h" />
+    <ClInclude Include="MISCPrinter.h" />
+    <ClInclude Include="POLParser.h" />
+    <ClInclude Include="POLPrinter.h" />
+    <ClInclude Include="PREFERENCESParser.h" />
+    <ClInclude Include="PREFERENCESPrinter.h" />
+    <ClInclude Include="PrinterCommon.h" />
+    <ClInclude Include="SCRIPTSiniParser.h" />
+    <ClInclude Include="SCRIPTSiniPrinter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
